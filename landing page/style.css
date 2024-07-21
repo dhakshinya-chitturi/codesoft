@@ -1,0 +1,106 @@
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-style: oblique;}
+
+/* Header styles */
+header {
+  background-color:rgb(240, 22, 193);
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d0e0dd0;
+}
+.start{
+  font-style: italic;
+  font-weight: bold;
+}
+.yummy1{
+    font-style: bold;
+    padding: bottom 10px ;
+    color: rgb(111, 10, 228);
+    font-size: larger;
+    flex-wrap: wrap;
+
+
+}
+
+.yummy2{
+    font-style: italic;
+    padding: bottom 10px ;
+    color: rgb(43, 10, 228);
+    flex: content;
+
+
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url("/images/ice cream.jpeg");
+    backface-visibility: visible;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-decoration-line: underline;
+  text-align: center;
+  padding: 140px 0;
+  color: #121312c0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.images-size {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  justify-content: space-between;
+
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
